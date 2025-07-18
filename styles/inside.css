@@ -18,6 +18,9 @@
 .dark3{
     color: #727272;
 }
+.komola1{
+    color: #FF900E;
+}
 
 .bg-light{
     color: rgba(255, 149, 28, 0.849);
@@ -39,6 +42,9 @@
 main{
     max-width: 1440px;
     margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
 }
 
 /* h3 styles  */
@@ -91,6 +97,34 @@ main{
 
 .banner-image{
     width: 100%;
+}
+
+/* team and feature related styles / */
+
+.team-feature{
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.title-feature{
+    font-size: 2.8rem;
+}
+#quick-list{
+    font-weight: 500;
+}
+#of-our{
+    font-weight: 700;
+}
+#features-list{
+    font-weight: 700;
 }
 
 /* responsive media qurry  */
