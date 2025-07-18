@@ -126,20 +126,36 @@ main > section{
 #features-list{
     font-weight: 700;
 }
+.feature-description{
+    margin-bottom: 32px;
+}
+
 
 /* responsive media qurry  */
 
 @media screen and (max-width:576px) {
-    .navbar , .nav-link{
+    .navbar , .nav-link , .team-feature{
         flex-direction: column;
     }
+    .team-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-features{
+        margin-left: 20px;
+    }
 }
-
+/* medium size device  */
 @media screen and (min-width:576px) and (max-width:996px) {
      .navbar , .nav-link{
         flex-direction: column;
     }
     .banner-image{
         max-width: 100%;
+    }
+    .team-feature{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
     }
 }
